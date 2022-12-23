@@ -1,0 +1,61 @@
+.contact .container {
+  background-color: black;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.contact .section-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20vh 0;
+}
+.contact .question {
+  color: var(--white);
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 200px;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 74px;
+  gap: 32px;
+  width: 100%;
+}
+
+.contact-name,
+.contact-icon {
+  color: var(--primary-800);
+}
+
+.contact-name {
+  margin: 0;
+}
+
+.contact-content {
+  color: var(--grey-300);
+}
+
+.contact-icon {
+  font-size: 32px;
+}
+
+.icon-container {
+  background-color: var(--grey-700);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+

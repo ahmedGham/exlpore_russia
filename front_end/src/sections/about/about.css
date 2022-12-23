@@ -1,0 +1,14 @@
+.about-us {
+  background-color: var(--primary-600);
+  padding: 36px 0;
+}
+
+.about-us .title {
+  color: var(--white);
+}
+
+.about-us-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.9;
+}

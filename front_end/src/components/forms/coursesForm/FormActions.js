@@ -1,0 +1,7 @@
+const courseFormActions = {
+  UPDATE_MODIFIED_FIELDS: "UPDATE_MODIFIED_FIELDS",
+  UPDATE_COURSE_PARAMS: "UPDATE_COURSE_PARAMS",
+  UPDATE_FORM_DATA: "UPDATE_FORM_DATA",
+};
+
+export default courseFormActions;
