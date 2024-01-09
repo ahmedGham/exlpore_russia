@@ -58,6 +58,7 @@ const CoursesForm = ({ setCourses }) => {
       {
         params: formState.courseParams,
       }
+    
     );
     setCourses(response.data);
   };

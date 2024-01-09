@@ -15,7 +15,6 @@ const Courses = () => {
 
   useEffect(() => {
     const controller = new AbortController();
-
     axios
       .get("http://localhost:8000/universities/api/", {
         signal: controller.signal,
@@ -34,7 +33,7 @@ const Courses = () => {
       title={t("universities.header")}
       question={t("universities.question")}
     >
-      <div className="courses">
+      <div className="courses" id="unevirsities">
         <CoursesList courses={courses} />
         <CoursesForm setCourses={setCourses} courses={courses} />
       </div>
